@@ -4,7 +4,7 @@ FSJS project 2 - List Filter and Pagination
 ******************************************/
 
 // Add variables that store DOM elements you will need to reference and/or manipulate
-
+let allStudents = document.querySelectorAll('.student-item, .cf');
 
 
 // Create a function to hide all of the items in the list excpet for the ten you want to show
@@ -20,9 +20,3 @@ FSJS project 2 - List Filter and Pagination
 
 // Add functionality to the pagination buttons so that they show and hide the correct items
 // Tip: If you created a function above to show/hide list items, it could be helpful here
-
-
-
-
-
-
